@@ -1,0 +1,114 @@
+a {
+    text-decoration: none;
+}
+
+input {
+    border: 0;
+    outline: none;
+}
+
+@media screen and (min-width: 750px) {
+    html {
+        font-size: 75px!important;
+    }
+}
+
+body {
+    min-width: 320px;
+    max-width: 750px;
+    width: 10rem;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-family: Arial, Helvetica;
+    background-color: #F2F2F2;
+}
+
+.search-content {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10rem;
+    height: 1.17333333rem;
+    background-color: #FFC001;
+}
+
+.classify {
+    width: 0.58666667rem;
+    height: 0.93333333rem;
+    margin: 0.14666667rem 0.33333333rem 0.09333333rem 0.32rem;
+    background: url(../images/classify.png) no-repeat;
+    background-size: 0.58666667rem 0.93333333rem;
+}
+
+.search {
+    flex: 1;
+}
+
+.search input {
+    width: 100%;
+    height: 0.88rem;
+    margin-top: 0.16rem;
+    padding-left: 0.72rem;
+    background-color: #FFF2CC;
+    color: #757575;
+    font-size: 0.33333333rem;
+    border-radius: 0.44rem;
+}
+
+.login {
+    width: 1rem;
+    height: 0.93333333rem;
+    margin: 0.13333333rem;
+    color: #fff;
+    font-size: 0.33333333rem;
+    line-height: 0.93333333rem;
+    text-align: center;
+}
+
+.banner {
+    width: 10rem;
+    height: 4.90666667rem;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.ad {
+    display: flex;
+}
+
+.ad a {
+    flex: 1;
+}
+
+.ad a img {
+    width: 100%;
+}
+
+nav {
+    width: 10rem;
+}
+
+nav a {
+    float: left;
+    width: 2rem;
+    height: 1.86666667rem;
+    text-align: center;
+}
+
+nav a img {
+    display: block;
+    width: 1.09333333rem;
+    height: 1.09333333rem;
+    margin: 0.13333333rem auto 0;
+}
+
+nav a span {
+    display: block;
+    color: #333;
+    font-size: 0.33333333rem;
+}

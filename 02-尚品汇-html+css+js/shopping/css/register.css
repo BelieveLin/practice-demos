@@ -1,0 +1,131 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+/* 头部区域 */
+header {
+    height: 84px;
+    border-bottom: 2px solid #c81523;
+}
+.logo {
+    padding-top: 18px;
+}
+/* 主体区域 */
+.registerarea {
+    height: 622px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+.registerarea h3 {
+    height: 42px;
+    padding: 0 10px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 42px;
+}
+.registerarea .login {
+    float: right;
+    font-size: 14px;
+}
+.registerarea .login a,
+.error {
+    color: #c81523;
+}
+.reg-form {
+    width: 600px;
+    margin: 50px auto 0;
+}
+.reg-form ul li {
+    margin-bottom: 20px;
+}
+.reg-form label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+.reg-form ul li .inp {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+.error_icon,
+.success_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-top: -3px;
+    vertical-align: middle;
+}
+.error_icon {
+    background: url(../images/error.png) no-repeat;
+}
+.success {
+    color: green;
+}
+.success_icon {
+    background: url(../images/success.png) no-repeat;
+}
+.safe {
+    padding-left: 170px;
+}
+.safe em {
+    /* display: inline-block; */
+    padding: 0 12px;
+    color: #fff;
+}
+.ruo {
+    background-color: #de1111;
+}
+.zhong {
+    background-color: #40b83f;
+}
+.qiang {
+    background-color: #f79100;
+}
+.agree {
+    padding-left: 95px;
+}
+.agree input {
+    vertical-align: middle;
+}
+.agree a {
+    color: #1ba1e6;
+}
+.btn {
+    width: 200px;
+    height: 34px;
+    margin: 30px 0 0 100px;
+    background-color: #c81623;
+    font-size: 14px;
+    color: #fff;
+
+}
+/* 底部模块 */
+.footer {
+    height: 177px;
+    padding-top: 30px;
+    background-color: #f5f5f5;
+}
+.mod_copyright {
+    padding-top: 20px;
+    text-align: center;
+}
+.links {
+    overflow: hidden;
+    margin-bottom: 15px;
+    margin-left: 116px;
+}
+.links ul li {
+    float: left;
+}
+.links ul li a {
+    padding: 0 12px;
+}
+.links ul li:nth-child(-n+11)::after {
+    content: "|";
+}
+.copyright {
+    line-height: 20px;
+}
